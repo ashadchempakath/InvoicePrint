@@ -36,6 +36,7 @@ namespace WindocPrint
             LoadData();
             LoadSavedSettings();
             DatabaseHelper.CreateInvoiceTable();
+            GenerateInvoieNo();
         }
 
         public static DataTable ReadInvoices()
@@ -180,7 +181,7 @@ namespace WindocPrint
 
         private void buttonPasteFromExcelCopy_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("asdf");
+          
             try
             {
                 string s = Clipboard.GetText();
@@ -300,7 +301,35 @@ namespace WindocPrint
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void GenerateInvoieNo()
+        {
+            try
+            {
+
+                using (SQLiteConnection connection = DatabaseHelper.GetConnection())
+                {
+                    connection.Open();
+
+                    string query = "SELECT ifnull(MAX(InvoiceNo), 1) as InvoiceNo FROM Invoices";
+
+                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        int InvoiceNo = Convert.ToInt32(command.ExecuteScalar());
+                        textBoxInvoiceNo.Text ="INV-"+ InvoiceNo.ToString()+DateTime.Now.ToString("yyyy");
+
+                       
+                    }
+                }
+            }
+            catch
+            {
+               
+            }
+        }
+
+        private void buttonSetCreateTables_Click(object sender, EventArgs e)
         {
             Microsoft.Win32.Registry.SetValue("HKEY_CURRENT_USER\\Control Panel\\International", "initquery", false);
         }
@@ -335,6 +364,8 @@ public class DatabaseHelper
 
                 string query = @"CREATE TABLE IF NOT EXISTS Invoices (
                                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                                VoucherNo Integer,
+                                InvoiceNo TEXT,
                                 SenderName TEXT,
                                 SenderPhone TEXT,
                                 SenderPhone2 TEXT,
@@ -360,7 +391,8 @@ public class DatabaseHelper
                              ShippingOptions TEXT,
                              ContentsofShipments TEXT,
                              VatPaid TEXT,
-                             DutyPaid TEXT
+                             DutyPaid TEXT,
+                             TotalAmount Decimal(10,2)
 
                             )";
 

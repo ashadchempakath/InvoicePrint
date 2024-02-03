@@ -68,13 +68,13 @@
             buttonPasteFromExcelCopy = new Button();
             dataGridView2 = new DataGridView();
             tabPage3 = new TabPage();
+            buttonSetCreateTables = new Button();
+            label6 = new Label();
             checkBoxPrintInvoiceHeaderImage = new CheckBox();
             checkBoxPrintInvoiceHeading = new CheckBox();
             buttonSaveSettings = new Button();
             label13 = new Label();
             textBoxInvoiceHeading = new TextBox();
-            label6 = new Label();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -86,7 +86,7 @@
             // 
             // buttonPrint
             // 
-            buttonPrint.Location = new Point(36, 450);
+            buttonPrint.Location = new Point(28, 463);
             buttonPrint.Name = "buttonPrint";
             buttonPrint.Size = new Size(113, 48);
             buttonPrint.TabIndex = 0;
@@ -101,7 +101,7 @@
             dataGridView1.Location = new Point(820, 0);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(288, 569);
+            dataGridView1.Size = new Size(288, 598);
             dataGridView1.TabIndex = 1;
             // 
             // buttonExecuteCmd
@@ -146,7 +146,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(28, 128);
+            label2.Location = new Point(28, 114);
             label2.Name = "label2";
             label2.Size = new Size(59, 15);
             label2.TabIndex = 7;
@@ -154,7 +154,7 @@
             // 
             // textBoxCustomerName
             // 
-            textBoxCustomerName.Location = new Point(128, 125);
+            textBoxCustomerName.Location = new Point(128, 111);
             textBoxCustomerName.Name = "textBoxCustomerName";
             textBoxCustomerName.Size = new Size(327, 23);
             textBoxCustomerName.TabIndex = 2;
@@ -173,7 +173,7 @@
             textBoxSenderAddress.Location = new Point(128, 49);
             textBoxSenderAddress.Multiline = true;
             textBoxSenderAddress.Name = "textBoxSenderAddress";
-            textBoxSenderAddress.Size = new Size(327, 70);
+            textBoxSenderAddress.Size = new Size(327, 57);
             textBoxSenderAddress.TabIndex = 1;
             // 
             // dateTimePicker1
@@ -201,7 +201,7 @@
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(802, 545);
+            tabControl1.Size = new Size(802, 563);
             tabControl1.TabIndex = 26;
             // 
             // tabPage1
@@ -228,14 +228,14 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(794, 517);
+            tabPage1.Size = new Size(794, 535);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Direct Invoice";
             tabPage1.UseVisualStyleBackColor = true;
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(169, 450);
+            buttonSave.Location = new Point(647, 463);
             buttonSave.Name = "buttonSave";
             buttonSave.Size = new Size(113, 48);
             buttonSave.TabIndex = 35;
@@ -246,7 +246,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(575, 450);
+            label5.Location = new Point(567, 424);
             label5.Name = "label5";
             label5.Size = new Size(79, 15);
             label5.TabIndex = 34;
@@ -255,7 +255,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(396, 450);
+            label4.Location = new Point(388, 424);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 33;
@@ -263,7 +263,7 @@
             // 
             // textBoxTotalQty
             // 
-            textBoxTotalQty.Location = new Point(456, 446);
+            textBoxTotalQty.Location = new Point(448, 420);
             textBoxTotalQty.Name = "textBoxTotalQty";
             textBoxTotalQty.Size = new Size(113, 23);
             textBoxTotalQty.TabIndex = 32;
@@ -271,7 +271,7 @@
             // 
             // textBoxTotalAmount
             // 
-            textBoxTotalAmount.Location = new Point(653, 446);
+            textBoxTotalAmount.Location = new Point(645, 420);
             textBoxTotalAmount.Name = "textBoxTotalAmount";
             textBoxTotalAmount.Size = new Size(115, 23);
             textBoxTotalAmount.TabIndex = 31;
@@ -281,7 +281,7 @@
             // 
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView3.Columns.AddRange(new DataGridViewColumn[] { Columnslno, ColumnDescription, ColumnQty, ColumnUnitPrice, ColumnTotal });
-            dataGridView3.Location = new Point(36, 218);
+            dataGridView3.Location = new Point(28, 192);
             dataGridView3.Name = "dataGridView3";
             dataGridView3.RowTemplate.Height = 25;
             dataGridView3.Size = new Size(732, 217);
@@ -334,16 +334,16 @@
             // 
             // textBoxCustomeAddress
             // 
-            textBoxCustomeAddress.Location = new Point(128, 155);
+            textBoxCustomeAddress.Location = new Point(128, 141);
             textBoxCustomeAddress.Multiline = true;
             textBoxCustomeAddress.Name = "textBoxCustomeAddress";
-            textBoxCustomeAddress.Size = new Size(327, 57);
+            textBoxCustomeAddress.Size = new Size(327, 45);
             textBoxCustomeAddress.TabIndex = 3;
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(28, 158);
+            label15.Location = new Point(28, 144);
             label15.Name = "label15";
             label15.Size = new Size(100, 15);
             label15.TabIndex = 29;
@@ -375,7 +375,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(794, 517);
+            tabPage2.Size = new Size(794, 535);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Excel Invoice";
             tabPage2.UseVisualStyleBackColor = true;
@@ -427,7 +427,7 @@
             // 
             // tabPage3
             // 
-            tabPage3.Controls.Add(button1);
+            tabPage3.Controls.Add(buttonSetCreateTables);
             tabPage3.Controls.Add(label6);
             tabPage3.Controls.Add(checkBoxPrintInvoiceHeaderImage);
             tabPage3.Controls.Add(checkBoxPrintInvoiceHeading);
@@ -439,10 +439,30 @@
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(794, 517);
+            tabPage3.Size = new Size(794, 535);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Settings";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // buttonSetCreateTables
+            // 
+            buttonSetCreateTables.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            buttonSetCreateTables.Location = new Point(188, 464);
+            buttonSetCreateTables.Name = "buttonSetCreateTables";
+            buttonSetCreateTables.Size = new Size(231, 23);
+            buttonSetCreateTables.TabIndex = 12;
+            buttonSetCreateTables.Text = "Set Create Tables For Next form Load";
+            buttonSetCreateTables.UseVisualStyleBackColor = true;
+            buttonSetCreateTables.Click += buttonSetCreateTables_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(43, 239);
+            label6.Name = "label6";
+            label6.Size = new Size(105, 15);
+            label6.TabIndex = 11;
+            label6.Text = "Developer Settings";
             // 
             // checkBoxPrintInvoiceHeaderImage
             // 
@@ -497,31 +517,11 @@
             textBoxInvoiceHeading.Text = "INVOICE";
             textBoxInvoiceHeading.TextAlign = HorizontalAlignment.Center;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(43, 239);
-            label6.Name = "label6";
-            label6.Size = new Size(105, 15);
-            label6.TabIndex = 11;
-            label6.Text = "Developer Settings";
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button1.Location = new Point(188, 464);
-            button1.Name = "button1";
-            button1.Size = new Size(231, 23);
-            button1.TabIndex = 12;
-            button1.Text = "Set Create Tables For Next form Load";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1108, 569);
+            ClientSize = new Size(1108, 598);
             Controls.Add(tabControl1);
             Controls.Add(dataGridView1);
             Name = "Form1";
@@ -584,7 +584,7 @@
         private TextBox textBoxTotalQty;
         private TextBox textBoxTotalAmount;
         private Button buttonSave;
-        private Button button1;
+        private Button buttonSetCreateTables;
         private Label label6;
     }
 }

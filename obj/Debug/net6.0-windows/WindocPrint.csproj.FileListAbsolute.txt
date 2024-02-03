@@ -30,3 +30,4 @@ C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-w
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\obj\Debug\net6.0-windows\WindocPrint.sourcelink.json
