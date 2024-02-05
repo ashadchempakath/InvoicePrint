@@ -31,3 +31,36 @@ C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-w
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\ashad\Desktop\dotnet core learn projects\WindocPrint\obj\Debug\net6.0-windows\WindocPrint.sourcelink.json
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\WindocPrint.exe
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\WindocPrint.deps.json
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\WindocPrint.runtimeconfig.json
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\WindocPrint.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\WindocPrint.pdb
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\System.Data.SQLite.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\System.Data.SQLite.EF6.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.csproj.AssemblyReference.cache
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.Form1.resources
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.csproj.GenerateResource.cache
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.AssemblyInfoInputs.cache
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.AssemblyInfo.cs
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.csproj.CoreCompileInputs.cache
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.sourcelink.json
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.csproj.CopyComplete
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\refint\WindocPrint.dll
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.pdb
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\WindocPrint.genruntimeconfig.cache
+C:\Users\ashad\Desktop\invoice Print\InvoicePrint\obj\Debug\net6.0-windows\ref\WindocPrint.dll

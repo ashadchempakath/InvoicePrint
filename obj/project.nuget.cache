@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NI9k8AVKodV+Oud6mPYN5YAFc8GMSBP9BPi4u6eexMATaJlyAGiQCKPK1wgghxPLQesIjcGOP4+d8G6RLw9M8w==",
+  "dgSpecHash": "a6CniyK2K+aUJoEW9SSIGVvWyC+GZgBp4rPKGuifWC4LOvRBN2MMvX5W5p5p74k08r39pGQS8KcXJX/eRliq6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ashad\\Desktop\\dotnet core learn projects\\WindocPrint\\WindocPrint.csproj",
+  "projectFilePath": "C:\\Users\\ashad\\Desktop\\invoice Print\\InvoicePrint\\WindocPrint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashad\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\ashad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -26,7 +26,11 @@
     "C:\\Users\\ashad\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\ashad\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\ashad\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\ashad\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\ashad\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\ashad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\ashad\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\ashad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\ashad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindocPrint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b88398a6c9c0d215acfdac6ef3e346ec65f34c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+945ef24ae3394320bed0976fd3f1499ea28c7157")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindocPrint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindocPrint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
